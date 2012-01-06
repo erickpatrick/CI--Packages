@@ -95,16 +95,16 @@ class Multiple_upload {
       return false;
     endif; 
 
-    $code = "";
+    $random_name = "";
 
     // All valid chars to be used in generation
-    $chars = "abcdefghijklmnpqrstuvwxyzABCDEFGHIJKLMNPQRSTUVWXYZ123456789_";
+    $valid_chars = "abcdefghijklmnpqrstuvwxyzABCDEFGHIJKLMNPQRSTUVWXYZ123456789_";
 
     srand((double)microtime() * 1000000);
     for ($i = 0; $i < $name_length; $i++) :
-      $code = $code . substr($chars, rand() % strlen($chars), 1);
+      $random_name = $random_name . substr($valid_chars, rand() % strlen($valid_chars), 1);
     endfor;
     
-    return $code;
+    return $random_name;
   }
 }
