@@ -11,5 +11,10 @@ Here is the list of packages and their dependencies.
 Multiple Upload
 ---------------
 Description: A wrapper to the built-in CI Upload Library to allow users upload multiple files at one
+Dependencies: None
 
+
+Layout
+------
+Description: It facilitates the creation of view files, creating region areas to the layout (header, aside, content, footer), helping the reutilization/maintenace of views/areas.
 Dependencies: None
