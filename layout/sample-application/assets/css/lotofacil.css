@@ -1,0 +1,46 @@
+.bignum {
+  font-size:12em;
+  line-height: 1.05em;
+  text-align:left;
+}
+
+body {
+  margin-top: 10px;
+}
+
+.sorteio td, .sorteio th {
+  text-align:center;
+}
+
+.table input[type="text"] {
+  width:55px;
+}
+
+.graphic-sum {
+  margin-bottom:20px;
+  overflow:hidden;
+}
+
+.graphic-sum span {
+  border-top: 2px #fff solid;
+  display:inline-block;
+  float:left;
+  font-size:8px;
+  height: 180px;
+  margin-right:1px;
+  text-align:center;
+  vertical-align: top;
+}
+
+.graphic-sum span:hover {
+  border-top: 2px #bbb solid;
+  background:#eee;
+}
+
+.graphic-sum img {
+  display:block;
+}
+
+.text-align-right {
+  text-align:right;
+}
