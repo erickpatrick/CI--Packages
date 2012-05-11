@@ -3,7 +3,7 @@
 class Layout {
 
   private $ci = NULL;
-  private $layout;
+  public $layout;
 
   // Get's CI instance to use inside Library
   public function __construct()
