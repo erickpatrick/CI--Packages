@@ -1,3 +1,7 @@
+# This package is deprecated
+It may or may not work with your current Code Igniter version
+
+
 CodeIgniter Packages
 ====================
 
